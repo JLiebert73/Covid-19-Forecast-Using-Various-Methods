@@ -3,8 +3,8 @@ from XGB import train_model
 from create_submission import create_submission
 import matplotlib.pyplot as plt
 
-train_path = r'Data\\train.csv'
-test_path = r'Data\\test.csv'
+train_path = r'train.csv'
+test_path = r'test.csv'
 
 x_train, x_test = preprocess_data(train_path, test_path)
 
